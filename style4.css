@@ -1,0 +1,136 @@
+.head{
+    text-align:center;
+    text-decoration:underline;
+    font-weight: bold;
+    font-size:25px;
+}
+header{
+    background-image: linear-gradient(to right,red,green,yellow);
+    border:1px solid gray;
+}
+.listitems{
+    text-align:center;
+    border:3px solid red;
+    background-color: rgb(206, 206, 242);
+    border-radius: 9px;
+    width:10%;
+    margin:auto;
+    padding-left:300px;
+    padding-right:350px;
+    font-size:15px;
+    font-weight: bold;
+}
+.grid-container{
+    display:grid;
+    justify-content: space-around;
+    border:1px solid gray;
+    border-radius:9px;
+    background-color: rgb(153, 214, 153);
+    
+    grid-template-columns: 450px 450px 450px;
+  
+}
+
+#same{
+background-color: aqua;
+text-align:center;
+font-weight: bold;
+border:2px solid gray;
+border-radius:9px;
+width:100%;
+}
+.box-5{
+    grid-column-start: 2;
+}
+.middle{
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: red;
+    font-weight: bold;
+    background-image: linear-gradient(to right,red,yellow,red);
+    padding-bottom: 12px;
+    padding-top: 0px;
+    font-size:25px;
+}
+.flex-container{
+    display:flex;
+    background-image:radial-gradient(blue,rgb(118, 216, 118)) ;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    border:2px solid green;
+
+}
+.bb-1{
+    background-color: yellow;
+    border:2px solid red;
+    border-radius:9px;
+    text-align: center;
+    color:red;
+    text-decoration: underline;
+    line-height: 30px;
+    width:200px;
+}
+
+.grid-container-2{
+    display:grid;
+    grid-template-columns: 450px 450px 450px 100px;
+    gap:18px;
+    grid-template-rows: 35px 70px 90px 25px;
+    border:1px solid gray;
+    overflow: hidden;
+}
+.item-1{
+    text-align:center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding-bottom: 10px;
+    background-color: rgb(214, 77, 77);
+    grid-column: 1/5;
+}
+.item-2{
+    background-color: rgb(105, 204, 105);
+    color:white;
+    font-weight:bold;
+    text-align: center;
+    font-size: 24px;
+   
+}
+.item-3{
+    background-color: rgb(109, 109, 251);
+    color:white;
+    font-weight:bold;
+    font-size: 28px;
+}
+.item-4{
+    background-color: rgb(24, 24, 211);
+    color:white;
+    font-size:20px;
+    text-align:left;
+    font-weight:bold;
+}
+.item-5{
+    color:white;
+    background-color: black;
+    text-decoration: underline;
+    grid-column-start:4;
+    grid-area:2/4/4/5;
+    text-align: left;
+    font-size: 14px;
+    padding-top:0px;
+}
+.item-6{
+    background-color:rgb(255, 165, 0);
+    color:white;
+    font-weight:bold;
+    grid-column: 1/4;
+}
+.item-7{
+    background-color:rgb(123, 206, 234);
+    color:black;
+    font-weight:bold;
+    grid-column: 1/5;
+    text-align: center;
+    font-size: 22px;
+}

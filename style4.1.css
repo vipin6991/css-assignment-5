@@ -1,0 +1,135 @@
+body{
+    background-color: yellow;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+
+}
+.container-1>div{
+    width:150px;
+    height:150px;
+    background-color: rgb(82, 82, 208);
+    margin:30px;
+    transform: skew(10deg,10deg);
+    animation-name: example;
+    animation-duration: 3s;
+   animation-iteration-count:infinite ;
+    animation-direction: alternate; 
+    animation-timing-function: ease-in-out;
+}
+@keyframes example {
+    from { transform:skew(10deg,10deg);}
+    to { transform:skew(-10deg,-10deg);}
+  }
+
+.container-2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-2>div{
+    width:150px;
+    height:150px;
+    background-color: gray;
+    margin:30px;
+    transform: skew(-15deg,-15deg);
+    animation-name: example-2;
+    animation-duration: 3s;
+   animation-iteration-count:infinite ;
+    animation-direction: alternate; 
+    animation-timing-function: ease-in-out;
+}
+@keyframes example-2 {
+    from { transform:skew(-15deg,-15deg);}
+    to { transform:skew(15deg,15deg);}
+  }
+.container-3{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-3>div{
+    width:150px;
+    height:150px;
+    background-color: rgb(82, 82, 208);
+    margin:30px;
+    transform: rotate(0deg);
+    animation-name: example-3;
+    animation-duration: 4s;
+   animation-iteration-count:infinite ;
+   
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes example-3 {
+    from { transform:rotate(0deg);}
+    to { transform:rotate(360deg);}
+  }
+.container-4{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   gap: 55px;
+   grid-template-columns: 150px 150px 150px;
+   grid-template-rows: 150px;
+   justify-items: center;
+   margin-top: 30px;
+    
+   
+
+}
+
+
+#item1{
+    width:150px;
+    height:150px;
+  
+    animation-name: example-4;
+    animation-duration: 3s;
+   animation-iteration-count:infinite ;
+    animation-direction: alternate; 
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes example-4 {
+    from { height: 150px; }
+    to { height: 90px; }
+  }
+
+  #item2{
+    width:150px;
+    height:150px;
+   
+    animation-name: example-5;
+    animation-duration: 3s;
+   
+   animation-iteration-count:infinite ;
+    animation-direction: alternate; 
+    animation-timing-function: ease-in-out;
+}
+@keyframes example-5 {
+    from { width: 150px;   }
+    to { width:60px; }
+  }
+
+  #item3{
+    width:150px;
+    height:150px;
+ 
+   transform: rotate(0deg);
+    animation-name: example-6;
+    animation-duration: 3s;
+   animation-iteration-count:infinite ;
+    animation-direction: alternate; 
+    animation-timing-function: ease-in-out;
+}
+@keyframes example-6 {
+    from { transform: rotate(0deg); }
+    to {  transform: rotate(150deg);}
+  }
+  .hyper{
+    margin-top: 30px;
+  }
